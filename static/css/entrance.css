@@ -1,7 +1,14 @@
+@media(max-width: 1023px) {
+}
+
+@media(max-width: 767px) {
+}
+
+
 #entrance {
     margin: auto;
     margin-top: 100px;
-    background-color: aqua;
+    background-color: #50BCDF;
     text-align: center;
     width: 200px;
 }

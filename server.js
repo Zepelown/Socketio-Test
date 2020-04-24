@@ -11,7 +11,7 @@ app.use('/css', express.static('./static/css'))
 app.use('/js', express.static('./static/js'))
 
 app.get('/', function(request, response) {
-    fs.readFile('./static/main.html', function(err, data) {
+    fs.readFile('./static/html/entrance.html', function(err, data) {
         if(err) {
             response.send('에러')
         } else {

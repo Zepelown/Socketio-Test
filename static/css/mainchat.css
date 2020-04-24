@@ -1,0 +1,53 @@
+#chat-container {
+    width: 500px;
+    height: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #bcbcbc;
+}
+
+#chat-contents {
+    height: 90%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+#input-container{
+    height: 10%;
+    width: 100%;
+}
+
+#input-contents {
+    height: 10%;
+    width: 100%;
+}
+
+.connect {
+    width: 90%;
+    margin: auto;
+    background-color: aquamarine;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.disconnect {
+    width: 90%;
+    margin: auto;
+    background-color: firebrick;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.me {
+    width: 90%;
+    margin: auto;
+    background-color: wheat;
+    margin-top: 10px;
+}
+
+.other {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+}
